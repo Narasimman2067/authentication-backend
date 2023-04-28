@@ -21,7 +21,7 @@ app.use("/api/auth",userRouter)
 
 
 
-app.get("/",(req,res)=>{
+app.use("/",(req,res)=>{
     console.log({message:"mongodb and server running successfully"})
 });
 
