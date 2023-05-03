@@ -21,9 +21,9 @@ app.use("/api/auth",userRouter)
 
 
 
-// app.use("/",(req,res)=>{
-//     console.log({message:"mongodb and server running successfully"})
-// });
+app.use("/",(req,res)=>{
+    console.log({message:"mongodb and server running successfully"})
+});
 
 
 
